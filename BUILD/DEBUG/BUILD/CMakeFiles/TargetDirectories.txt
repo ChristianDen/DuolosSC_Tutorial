@@ -1,3 +1,0 @@
-/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/CMakeFiles/edit_cache.dir
-/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/CMakeFiles/rebuild_cache.dir
-/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/CMakeFiles/DuolosSC_Tutorial.dir

@@ -1,4 +1,0 @@
-/net/heap/denker/tools/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/opt/rh/devtoolset-8/root/bin/gcc -DCMAKE_CXX_COMPILER=/opt/rh/devtoolset-8/root/bin/g++ -DCMAKE_INSTALL_PREFIX=../ -DCMAKE_BUILD_TYPE=DEBUG -G "CodeBlocks - Unix Makefiles" /scratch/denker/projects/DuolosSC_Tutorial
--- Configuring done
--- Generating done
--- Build files have been written to: /scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD
