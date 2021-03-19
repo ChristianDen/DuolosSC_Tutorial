@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DuolosSC_Tutorial"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DuolosSC_Tutorial">
+				<Option output="/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/DuolosSC_Tutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/net/sw/SystemC/systemc-2.3.3/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 DuolosSC_Tutorial"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DuolosSC_Tutorial/fast">
+				<Option output="/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/DuolosSC_Tutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/net/sw/SystemC/systemc-2.3.3/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 DuolosSC_Tutorial/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/scratch/denker/projects/DuolosSC_Tutorial/BUILD/DEBUG/BUILD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/scratch/denker/projects/DuolosSC_Tutorial/initiator.h">
+			<Option target="DuolosSC_Tutorial"/>
+		</Unit>
+		<Unit filename="/scratch/denker/projects/DuolosSC_Tutorial/main.cpp">
+			<Option target="DuolosSC_Tutorial"/>
+		</Unit>
+		<Unit filename="/scratch/denker/projects/DuolosSC_Tutorial/target.h">
+			<Option target="DuolosSC_Tutorial"/>
+		</Unit>
+		<Unit filename="/scratch/denker/projects/DuolosSC_Tutorial/top.h">
+			<Option target="DuolosSC_Tutorial"/>
+		</Unit>
+		<Unit filename="/scratch/denker/projects/DuolosSC_Tutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
