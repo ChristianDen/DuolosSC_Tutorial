@@ -10,6 +10,6 @@ link_directories(${CMAKE_PREFIX_PATH}/lib-linux64)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(DuolosSC_Tutorial main.cpp top.h initiator.h target.h)
+add_executable(DuolosSC_Tutorial main.cpp top.h initiator.h target.h router.h)
 
 target_link_libraries(DuolosSC_Tutorial systemc)

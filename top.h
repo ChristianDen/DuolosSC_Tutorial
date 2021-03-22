@@ -7,18 +7,29 @@
 
 #include "initiator.h"
 #include "target.h"
+#include "router.h"
 
 SC_MODULE(Top)
 {
     Initiator *initiator;
-    Memory    *memory;
+    Router<4> *router;
+    Memory    *memory[4];
 
     SC_CTOR(Top)
     {
         initiator = new Initiator("initiator");
-        memory    = new Memory   ("memory");
-
-        initiator->socket.bind( memory->socket );
+        router = new Router<4>("router");
+        for (int i = 0; i < 4; i++)
+        {
+            char txt[20];
+            sprintf(txt, "memory_%d", i);
+            memory[i] = new Memory(txt);
+        }
+        initiator->socket.bind(router->target_socket);
+        for (int i = 0; i < 4; i++)
+        {
+            router->initiator_socket[i]->bind(memory[i]->socket);
+        }
     }
 };
 
